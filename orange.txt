@@ -1,0 +1,7 @@
+Orange
+
+	client(idclient, nom, prenom, adresse, email, tel)
+	objet (idobjet, marque, prix, dateAchat, idClient#)
+	technicien (idtechnicien, nom, prenom, competence, email, tel)
+	intervention (idintervention, description, dateInter, prixInter, idobjet#, idtechnicien)
+
